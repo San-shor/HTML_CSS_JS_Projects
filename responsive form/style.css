@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 600px;
+}
+.login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: grid;
+  background-color: #ebfbee;
+  box-shadow: 0 8px 20px rgba(35, 0, 77, 0.2);
+  padding: 1rem 2.5rem;
+  width: 600px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2b8a3e;
+  text-align: center;
+}
+.input {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 1.125rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1.125rem 1rem;
+}
+svg {
+  width: 1.5rem;
+  fill: #2b8a3e;
+}
+
+input {
+  border: none;
+  outline: none;
+  color: #2b8a3e;
+}
+input::placeholder {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #2b8a3e;
+  text-transform: capitalize;
+}
